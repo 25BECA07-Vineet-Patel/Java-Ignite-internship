@@ -1,5 +1,3 @@
-package Java_iternship;
-
 public class intro
 {
     public static void main(String args[])
