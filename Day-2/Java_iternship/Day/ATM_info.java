@@ -12,6 +12,7 @@ public class ATM_info {
         System.out.println("Enter withdrawal account : ");
         wih = sc.nextDouble();
         rem = bal - wih;
+        System.out.println("Account holder name : " + name);
         System.out.println("Remaining Balance : " + rem);
         if (bal > wih)
             System.out.println("Balance is greater than withdrawal amount ");
